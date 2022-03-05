@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+
+        @font-face {
+            font-family: 'testesao';
+            src: url('fonts/saudagar.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* 
+                Tipos de formats()
+                - opentype(otf)
+                - truetype(ttf)
+                - embedded-opentype()
+                truetype-aat(Apple Advanced Typography)
+                - svg
+            */
+        }
+
+        h1 {
+            font: italic 700 3em 'Barlow Condensed', sans-serif;
+        }
+
+        p {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam excepturi magnam sunt nisi aliquam, labore corrupti. Repellendus, itaque eligendi minima delectus totam temporibus rerum nulla, maiores, nam nisi libero eveniet.</p>
+</body>
+</html>
