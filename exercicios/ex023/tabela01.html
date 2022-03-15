@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .titulo {
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--
+        HIERARQUIA DE TABELAS (simples)
+        TABLE = tabela
+            Table Row = linha de tabela
+                Table Header = cabeçalho da tabela
+                    Table Data = dado de tabela
+    -->
+    <table>
+        <tr class="titulo">
+            <td>Estado</td>
+            <td>População</td>
+            <td>Taxa de desemprego</td>
+        </tr>
+        <tr>
+            <td>Pará</td>
+            <td>900.000</td>
+            <td>6%</td>
+        </tr>
+        <tr>
+            <td>Amapá</td>
+            <td>400.000</td>
+            <td>19%</td>
+        </tr>
+        <tr>
+           <td>São Paulo</td>
+           <td>12.500.000</td>
+           <td>5%</td> 
+        </tr>
+    </table>
+</body>
+</html>
